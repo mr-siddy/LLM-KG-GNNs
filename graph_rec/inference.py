@@ -6,7 +6,7 @@ Loads the trained model and produces top-K recommendations for a given user.
 
 import torch
 from data_loader import load_data
-from model import LightGCN
+from model import EnhancedLightGCN
 
 def load_model(model_path, num_users, num_items, embed_dim=64, num_layers=3, device="cpu"):
     model = LightGCN(num_users, num_items, embed_dim=embed_dim, num_layers=num_layers).to(device)

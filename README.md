@@ -1,2 +1,0 @@
-# LLM-KG-GNNs
-RecSys

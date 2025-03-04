@@ -85,8 +85,4 @@ def evaluate_model(model, data, meta, test_user_items, top_k=10):
     avg_ndcg = sum(ndcgs) / len(ndcgs) if ndcgs else 0
     return avg_recall, avg_ndcg
 
-if __name__ == "__main__":
-    recommended = [10, 5, 20, 3, 7]
-    ground_truth = {5}
-    print("Recall@5:", recall_at_k(recommended, ground_truth, 5))
-    print("NDCG@5:", ndcg_at_k(recommended, ground_truth, 5))
+
