@@ -4,6 +4,7 @@ visualization.py
 This module provides visualization routines:
 - Plot a subgraph (using NetworkX) of customers and articles.
 - Visualize node embeddings with dimensionality reduction (t-SNE or UMAP).
+- Visualize graphs from GML files in a specified folder.
 """
 
 import matplotlib.pyplot as plt
@@ -55,8 +56,24 @@ def visualize_embeddings(embeddings, method="umap", title="Embedding Visualizati
     plt.show()
 
 if __name__ == "__main__":
-    # Dummy test: generate random embeddings.
-    import torch
-    dummy_embeddings = torch.rand(200, 64)
-    visualize_embeddings(dummy_embeddings, method="umap", title="UMAP Projection")
-    visualize_embeddings(dummy_embeddings, method="tsne", title="t-SNE Projection")
+    import os
+    import glob
+
+    # Specify the folder that contains your GML files.
+    gml_folder = "/Users/sidgraph/Desktop/LLM_KG_RecSys/graph_rec/data/processed"  # Update this path if your folder is located elsewhere.
+    
+    # Retrieve all .gml files from the folder.
+    gml_files = glob.glob(os.path.join(gml_folder, "*.gml"))
+    
+    if not gml_files:
+        print(f"No GML files found in folder: {gml_folder}")
+    else:
+        for gml_file in gml_files:
+            print(f"Visualizing graph from: {gml_file}")
+            G = nx.read_gml(gml_file)
+            plt.figure(figsize=(8, 8))
+            # Compute layout without using edge weights.
+            pos = nx.spring_layout(G, weight=None)
+            nx.draw(G, pos=pos, with_labels=True, node_color="skyblue", edge_color="gray")
+            plt.title(f"Graph Visualization: {os.path.basename(gml_file)}")
+            plt.show()

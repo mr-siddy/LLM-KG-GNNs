@@ -51,10 +51,10 @@ def train_model(args):
     os.makedirs(args.output_dir, exist_ok=True)
     
     # Load data
-    if args.load_processed and os.path.exists(os.path.join(args.data_dir, "processed", "lightgcn_data.pt")):
+    if args.load_processed and os.path.exists(os.path.join(args.data_dir, "processed/lightgcn_data.pt")):
         print("Loading processed data...")
-        data = torch.load(os.path.join(args.data_dir, "processed", "lightgcn_data.pt"), map_location=device)
-        with open(os.path.join(args.data_dir, "processed", "lightgcn_meta.pkl"), "rb") as f:
+        data = torch.load(os.path.join(args.data_dir, "processed/lightgcn_data.pt"), map_location=device)
+        with open(os.path.join(args.data_dir, "processed/lightgcn_meta.pkl"), "rb") as f:
             meta = pickle.load(f)
     else:
         print("Processing data from CSV files...")
@@ -353,7 +353,7 @@ def parse_args():
                         help="Number of edge types for enhanced model (default: user-item and item-item)")
     
     # Training arguments
-    parser.add_argument("--num_epochs", type=int, default=50, 
+    parser.add_argument("--num_epochs", type=int, default=500, 
                         help="Number of training epochs")
     parser.add_argument("--batch_size", type=int, default=1024, 
                         help="Batch size")
