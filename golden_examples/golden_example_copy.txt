@@ -1,0 +1,19 @@
+Customer Profile:
+    Age: 30, Membership: ACTIVE
+
+Purchase History:
+    - User purchased the Cedric Blouse, a white woven blouse featuring frill details, a small stand-up collar, front buttons, and long sleeves with frilled cuffs.
+    - User previously bought the SKIRT EMI HEART, a light blue denim skirt with adjustable elastic waist, zip fly, button closure, and unique heart-shaped front pockets.
+    - Purchased the VIVIENNE Set, a comfortable light pink garment set including a sweatshirt-fabric dress with side pockets and matching soft cotton-blend leggings.
+    - User bought the IDA SET DEAL, a coordinated set in light pink with a longer sweatshirt top featuring a motif and matching cotton jersey leggings.
+    - Purchased the Whiskey Dress, a dark yellow shirt dress in soft viscose twill, with collar, button placket, gathered waist, and a slightly flared skirt that is longer at the back.
+
+Product Recommendations:
+    - Consider buying the NT Alva 2-Pack Nursing Tops (White), soft organic cotton tops featuring adjustable shoulder straps and convenient nursing access.
+    - Check out the Cat Tee in White, Grey, or Pink, versatile and comfortable soft jersey T-shirts perfect for casual everyday wear.
+    - Consider buying the Cassia Crew Sweater (Green), a relaxed cotton-blend sweatshirt with dropped shoulders and ribbed details, ideal for layering comfortably.
+    - Check out the Becka Hoodie (Grey), a cozy, casual hoodie made from soft fabric featuring a jersey-lined hood and a convenient kangaroo pocket.
+    - Consider buying the Penny Wide Culotte (Black), stylish wide-leg trousers with a flattering high waist and hidden side pockets, suitable for comfortable yet chic outfits.
+    - Check out the Seamless Cheeky Brief (Black), comfortable microfiber briefs with minimal seams, high waist, and ideal for daily wear.
+    - Consider buying the Babe LS Top (Black), a fashionable ribbed jersey top with wide neckline, high side slits, and longer back hem, perfect for an elegant yet relaxed style.
+    - Check out the Bangkok V-neck Sweater (Grey), a soft fine-knit sweater with a deep neckline, great for layering or wearing alone.

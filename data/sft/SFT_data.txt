@@ -1,0 +1,37 @@
+#### Customer Profile Summary
+- Name: Alex Trousers (K)
+- Age: 50
+- Membership: ACTIVE
+- Purchase History: Alex has purchased the following items:
+1. Alex Trousers (K) - Pyjama bottoms
+2. Anthony 3pk basic short trunks - Underwear bottoms
+3. Erik Tanktop 2 PK - Vest tops
+4. Roy Shorts - Shorts
+5. Summer price tee - T-shirts
+6. Bellini price - Sweaters
+7. Velvet twist tee - Tops
+8. Ringo hipbelt - Belts
+9. EMELIE DOUBLE EYELET BELT - Belts
+10. Perrie Slim HW Denim Shorts - Shorts
+11. Perrie Slim HW Denim Shorts - Shorts
+12. ES Dragonfly dress - Dresses
+13. Boy Denim Shorts - Shorts
+14. Skinny 5pkt Midprice - Trousers
+15. REX SLIM LS T-SHIRT - T-shirts
+16. Max 3pk Checks and Stripes - Trousers
+17. PETER POLO - Polo shirts
+18. Shaping Skinny HW - Trousers
+19. HAVANA HW tights - Tights
+20. SORRENTO RW trs - Trousers
+21. Tinos mesh tights - Leggings/Tights
+22. HEAVEN shaping HW tight - Leggings/Tights
+#### Product Recommendations
+1. Cat Tee - A versatile t-shirt option for everyday wear.
+2. Cat Tee - A classic white tee for those who prefer a simple design.
+3. Hayes slim trouser - A stylish and comfortable suit option for work or leisure.
+4. PETER POLO - A high-quality polo shirt for business or casual occasions.
+5. Shaping Skinny HW - A flattering and comfortable pair of jeans for everyday wear.
+6. HAVANA HW tights - A pair of high-quality tights for colder weather.
+7. SORRENTO RW trs - A stylish and comfortable sports option for outdoor activities.
+8. Tinos mesh tights - A lightweight and breathable option for outdoor activities.
+9. HEAVEN shaping HW tight - A high-quality and comfortable legging option for lounging.
